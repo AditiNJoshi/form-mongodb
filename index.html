@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Quiz Form</title>- ... your head content ... -->
+</head>
+<body>
+    <h1>Sample Quiz</h1>
+    <form id="quiz-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        
+        <!-- Questions and options directly embedded in the HTML -->
+        <div class="question">
+            <label>Question 1: What is the capital of France?</label>
+            <select name="q1">
+                <option value="Paris">Paris</option>
+                <option value="London">London</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Berlin">Berlin</option>
+            </select>
+        </div>
+        <div class="question">
+            <label>Question 2: How many continents are there?</label>
+            <select name="q2">
+                <option value="1">1</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+        </div>
+        <div class="question">
+            <label>Question 3: What is the capital of Spain?</label>
+            <select name="q3">
+                <option value="Madrid">Madrid</option>
+                <option value="Paris">Paris</option>
+                <option value="Rome">Rome</option>
+                <option value="Berlin">Berlin</option>
+            </select>
+        </div>
+        <div class="question">
+          <label>Question 4: How many continents are there?</label>
+          <select name="q4">
+              <option value="1">1</option>
+              <option value="4">4</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+          </select>
+      </div>
+      <div class="question">
+        <label>Question 5: How many continents are there?</label>
+        <select name="q5">
+            <option value="1">1</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select>
+    </div>
+    <div class="question">
+      <label>Question 6: How many continents are there?</label>
+      <select name="q6">
+          <option value="1">1</option>
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+      </select>
+  </div>
+  <div class="question">
+    <label>Question 7: How many continents are there?</label>
+    <select name="q7">
+        <option value="1">1</option>
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+    </select>
+</div>
+<div class="question">
+  <label>Question 8: How many continents are there?</label>
+  <select name="q8">
+      <option value="1">1</option>
+      <option value="4">4</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+  </select>
+</div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="quiz-results"></div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
